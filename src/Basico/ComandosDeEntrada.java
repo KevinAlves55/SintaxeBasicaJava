@@ -1,3 +1,4 @@
+package Basico;
 // Import da classe Scanner
 import java.util.Scanner;
 
