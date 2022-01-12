@@ -1,45 +1,44 @@
 package Carro;
 
-public class Metodos {
-
-	public void exibirMensagem() {
+public class MetodosPrivados {
+	
+	private void exibirMensagem() {
 		
 		System.out.println("Olá mundo");
 		
 	}
 	
-	public int soma(int x, int y) {
+	private int soma(int x, int y) {
 		
 		int resultado = x + y;
 		return resultado;
 		
 	}
 	
-	public double calcularMedia(double x, double y) {
+	private double calcularMedia(double x, double y) {
 		
 		double resultado = ((x + y) / 2);
 		return resultado;
 		
 	}
 	
-	public boolean logado() {
+	private boolean logado() {
 		
 		boolean condicao = true;
 		return condicao;
 		
 	}
 	
-	public String exibirMensagemArgumento(String mensagem) {
+	private String exibirMensagemArgumento(String mensagem) {
 		
 		String resultado = "A mensagem é: " + mensagem;
 		return resultado;
 		
 	}
-	
-	public void main(String[] args) {
+
+	public static void main(String[] args) {
 		
-		Metodos meuMetodo = new Metodos();
-		meuMetodo.exibirMensagem();
+		
 
 	}
 
