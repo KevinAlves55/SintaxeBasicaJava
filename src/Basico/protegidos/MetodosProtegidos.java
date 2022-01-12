@@ -1,6 +1,6 @@
-package Carro;
+package Basico.protegidos;
 
-class MetodosProtegidos {
+public class MetodosProtegidos {
 	
 	protected void exibirMensagem() {
 		

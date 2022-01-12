@@ -1,12 +1,17 @@
 package Carro;
 
 import java.util.Scanner;
+import Basico.protegidos.*;
 
-public class TestaCarro {
+public class TestaCarro extends MetodosProtegidos {
 
 	public static void main(String[] args) {
 		
 		Carro carroUm = new Carro();
+		TestaCarro teste = new TestaCarro();
+		
+		System.out.println(teste.calcularMedia(10, 10));
+		teste.exibirMensagem();
 		
 		System.out.println("Nome do carro: " + carroUm.nome);
 		System.out.println("Modelo: " + carroUm.modelo);

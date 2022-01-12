@@ -1,4 +1,4 @@
-package Carro;
+package Basico.protegidos;
 
 public class TestaProtegido {
 
